@@ -18,11 +18,6 @@ public class ContaTerminal {
         System.out.println("Por Favor, informe a agência");
         System.out.print("Agência: ");
         String digAgencia = scanner.nextLine();
-        /*if (digAgencia != AGENCIA && digUsuario != USUARIO && digSenha != SENHA) {
-            System.out.println("Informações de login estão incorretas");
-        } else {
-            System.out.println("Olá " + USUARIO + ", obrigado por usar nosso banco, sua agência é " + AGENCIA  + ", e seu saldo R$" + saldo + " já está disponível para saque");
-        }*/
         if (!digAgencia.equals(AGENCIA) || !digUsuario.equals(USUARIO) || !digSenha.equals(SENHA)) {
             System.out.println("Informações de login estão incorretas");
         } else {
